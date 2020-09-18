@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-1 2
-=======
-1 23
->>>>>>> Stashed changes
+trịnh thành trung
+1
+2

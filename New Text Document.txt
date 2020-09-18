@@ -1,9 +1,0 @@
-trịnh thành trung
-1
-2
-3
-<<<<<<< Updated upstream
-web
-=======
-34
->>>>>>> Stashed changes

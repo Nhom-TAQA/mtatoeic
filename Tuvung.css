@@ -1,0 +1,114 @@
+.khung*{
+	margin: 0;
+	padding: 0;
+}
+/*xử lý menu*/
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: #f5f5f5;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+/*list product*/
+.list-product-title{
+	width: 100%;
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+.list-product-subtitle{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*product card*/
+.card-product{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;	
+}
+
+#kmno4{
+	color: red;
+	
+}
+
+.khung{
+	margin: 20px 0;
+	height: 1000px;
+	border: solid 3px red;
+}
+main .Vocabulary .container{
+	background: url('./images/word1.png');
+	background-repeat: no-repeat;
+    background-position: right;
+    
+    background-size: 100%;
+}
+main .gramar .container{
+	background: url('./images/word2.png');
+	background-repeat: no-repeat;
+    background-position: right;
+    
+    background-size: 90%;
+}
+main .Vocabulary #NguoiChay{
+	width: 100%;
+	
+}
+
+/*------------------ảnh nền động----------------*/
+
+@keyframes animatedBackground {
+	0%{
+		background-position: 0 0;
+	}
+    50%{
+    	background-position: 100% 0;
+    }
+  	100%{
+  		background-position: 0 0;
+  	}
+  
+}
+@keyframes animatedBackground2 {
+	0%{
+		background-position: 15% 0;
+	}
+    100%{
+    	background-position: 100% 0;
+    }
+  	
+}
+
+#MayChuyenDong { 
+
+  background-image: url(./images/cloud.png);
+  background-position: 0px 0px;
+
+  background-repeat: no-repeat;
+  background-size: 20%;
+ 
+  animation: animatedBackground 40s linear infinite;
+  
+  
+}
+#NguoiChay{
+	background-image: url(./images/runman.gif);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 5%;
+ 
+  animation: animatedBackground2 40s linear infinite;
+}
+/*-----------x-------ảnh nền động---------x-------*/
